@@ -1,0 +1,70 @@
+.mainContainer{
+  /* width: 100%; */
+  padding: 0 13%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.navbar{
+  /* background-color: #FDFBFB; */
+  background-color: rgb(255, 255, 255);
+  height: 3rem;
+  width: 100%;
+  border-bottom: 1px solid rgb(219, 219, 219);
+  position: sticky;
+  top: 0;
+  
+}
+.navItems{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20%;
+}
+.details{
+  margin-left: 4rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.imgDiv{
+  margin: 1rem 2rem 2rem -2rem;
+  width: 100px;
+}
+.profileItems{
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.picsDiv{
+  padding-left: 2rem;
+  width: 100%;
+  max-height: 50%;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  overflow-y: auto;
+}
+.pics{
+  width: 10rem;
+  height: 10rem;
+}
+.footer{
+  height: 20%;
+  width: 100%;
+}
+.accounts{
+  width: 10rem;
+  height: 12rem;
+  background-color: aliceblue;
+  border: 1px solid;
+  margin-right:0.8rem ;
+  margin-left: 0.8rem;
+}
